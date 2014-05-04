@@ -1,0 +1,322 @@
+body {
+	padding: 0;
+	margin: 0;
+
+
+}
+
+.no-js {
+
+	padding: 0;
+	margin: 0;
+
+}
+
+.navigationBar {
+
+	width: 100%;
+	height: 9%;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	opacity: .6;
+	background-color: white;
+	z-index: 2;
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+    transition: background-color .7s ease;
+	
+	-moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+
+
+}
+
+.navigationBar:hover {
+
+	background-color: transparent;
+
+}
+
+
+
+#title {
+
+	list-style-type: none;
+	display: inline-block;
+	height: 100%;
+	/*width: 13.5%;*/
+	text-align: center;
+	font-family: Times;
+	font-style: bold;
+	font-size: 3em;
+	position: absolute;
+	padding: 0;
+	margin-right: 2%;
+	margin-left: 2%;
+	vertical-align: text-bottom;
+
+-moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+}
+
+#wheel {
+	display:inline-block;
+	bottom: -5%;
+	position: relative;
+
+}
+
+.header ul{
+
+	list-style: none;
+
+}
+
+.header li {
+
+	list-style-type: none;
+	display: inline-block;
+	height: 100%;
+	/*width: 13.5%;*/
+	text-align: center;
+	font-family: Times;
+	font-style: bold;
+	font-size: 2em;
+	position: relative;
+	padding: 0;
+	margin-right: 2%;
+	
+
+}
+
+.header li:hover{
+
+	cursor: pointer;
+
+}
+
+#navigationHome {
+
+	margin-left: 58%;
+	opacity: 1;
+	 cursor:pointer;
+
+}
+
+#middle{
+	height: 100%;
+	
+	width:100%;
+	position: absolute;
+	background-color: limegreen;
+	opacity: 1;
+	background: url('../img/sb1.jpg');
+	background-repeat: none;
+	background-size: 100% 120%;
+	z-index: 1
+
+}
+
+#fiddle{
+	height: 100%;
+	width:100%;
+	position: absolute;
+	background-color: limegreen;
+	opacity: 0;
+	background: url('../img/sb2.jpg');
+	background-repeat: none;
+	background-size: 100% 100%;
+	z-index: 1 
+}
+
+#biddle{
+	height: 100%;
+	width:100%;
+	position: absolute;
+	background-color: limegreen;
+	opacity: 0;
+	background: url('../img/sb3.jpg');
+	background-repeat: none;
+	background-size: 100% 100%;
+	z-index: 1
+}
+
+#diddle{
+	height: 100%;
+	width:100%;
+	position: absolute;
+	background-color: limegreen;
+	opacity: 0;
+	background: url('../img/sb4.jpg');
+	background-repeat: none;
+	background-size: 100% 100%;
+}
+
+.bottom{
+	text-align: left;
+	font-family: sans-serif;
+	font-size: .5em;
+	background-color: white;
+	width: 100%;
+	top:93%;
+	position: fixed;
+	height: 7%;
+	padding-left: 3%;
+	z-index: 2;
+	opacity: .6;
+	
+}
+
+#doggy {
+
+	position: relative;
+	top: 50%;
+	color: black;
+	
+
+}
+
+a {
+
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+
+	color: limegreen;
+
+}
+
+.fuckmebitch{
+
+
+}
+
+#homewords{
+	/*width:40%;
+	height:50%;*/
+	background-color: transparent;
+	opacity:.8;
+	z-index: 5;
+	position: absolute;
+	top:27%;
+	bottom:40%;
+	text-align: center;
+	left: 5%;
+	color: white;
+	-webkit-animation-duration: 5.5s;
+  	-webkit-animation-delay: 1.5s;
+}
+#homewordss{
+	/*width:40%;
+	height:50%;*/
+	background-color: transparent;
+	opacity:.8;
+	z-index: 5;
+	position: absolute;
+	top:35%;
+	bottom:40%;
+	text-align: center;
+	left: 5%;
+	color: white;
+	-webkit-animation-duration: 3s;
+  	-webkit-animation-delay: 2s;
+}
+#homewordsss{
+	/*width:40%;
+	height:50%;*/
+	background-color: transparent;
+	opacity:.8;
+	z-index: 5;
+	position: absolute;
+	top:43%;
+	bottom:40%;
+	text-align: center;
+	left: 5%;
+	color: white;
+	-webkit-animation-duration: 5.5s;
+  	-webkit-animation-delay: 2.5s;
+}
+#homewordssss{
+	/*width:40%;
+	height:50%;*/
+	background-color: transparent;
+	opacity:.8;
+	z-index: 5;
+	position: absolute;
+	top:51%;
+	bottom:40%;
+	text-align: center;
+	left: 5%;
+	color: white;
+	-webkit-animation-duration: 5.5s;
+  	-webkit-animation-delay: 3s;
+}
+
+#servicewords{
+	/*width:40%;
+	height:50%;*/
+	background-color: transparent;
+	opacity:.8;
+	z-index: 5;
+	position: absolute;
+	top:40%;
+	bottom:40%;
+	text-align: right;
+	left: 75%;
+	color: white;
+	font-size: 20px;
+	font-family: Helvetica;
+	-webkit-animation-duration: 3s;
+  	-webkit-animation-delay: 1s;
+}
+
+#servicewordss{
+	/*width:40%;
+	height:50%;*/
+	background-color: transparent;
+	opacity:.8;
+	z-index: 5;
+	position: absolute;
+	top:55%;
+	bottom:40%;
+	text-align: right;
+	left: 75%;
+	color: white;
+	font-size: 20px;
+	font-family: Helvetica;
+	-webkit-animation-duration: 3s;
+  	-webkit-animation-delay: 3s;
+}
+#servicewordsss{
+	/*width:40%;
+	height:50%;*/
+	background-color: transparent;
+	opacity:.8;
+	z-index: 5;
+	position: absolute;
+	top: 70%;
+	bottom:40%;
+	text-align: right;
+	left: 75%;
+	color: white;
+	font-size: 20px;
+	font-family: Verdana;
+	-webkit-animation-duration: 4s;
+  	-webkit-animation-delay: 3s;
+}

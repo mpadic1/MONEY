@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+
+
+	
+<meta charset="utf-8" />
+
+
+<!-- METADATA -->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Capital Code Partners - Web/mobile development for the financial industry.">
+<meta name="author" content="@unodosdan">
+<meta name="keywords" content="capital, private equity, investment bank, financial web development, money, billionaire, one percent, occupy strip club, jpmorgan, goldman sachs">
+<title>Capital Code Partners</title>
+
+<!--FONTS-->
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/animate.min.css">
+	
+<!-- DIV CHANGER -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/texteffects.min.js"></script>
+<script type="text/javascript" src="js/texteffects.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+
+	<script>
+
+		//first key down checker 
+		fkd = {};
+
+		mouseOverChecker = false;
+
+		$(document).ready(function(){
+
+		$('#homewords').addClass('animated fadeInLeft');
+		$('#homewordss').addClass('animated fadeInRightBig');
+		$('#homewordsss').addClass('animated bounceInUp');
+		$('#homewordssss').addClass('animated bounceInDown');
+			
+
+			$('#navigationHome').on('click', function(){
+				mouseOverChecker = true;
+				$('#middle').animate({'opacity':'1'}, 500);
+				
+				// $('#menuWrapper').animate({'opacity':'0.8'}, 500);
+				$('.navigationBar').css({'background-color':'white'}, 500);
+				$('#fiddle').animate({'opacity':'0'}, 500);
+				// $('.writingLinks').animate({'opacity':'0'}, 500);
+				$('#biddle').animate({'opacity':'0'}, 500);
+				$('#diddle').animate({'opacity':'0'}, 500);
+				// $('.arts').animate({'opacity':'0'}, 500);
+
+				// complete: finish
+			});
+
+			$('#navigationServices').on('click', function(){
+				mouseOverChecker = true;
+				$('#fiddle').animate({'opacity':'1'}, 500);
+				$('.navigationBar').css({'background-color':'transparent'}, 500);
+				// $('#menuWrapper').animate({'opacity':'0.8'}, 500);
+				$('#middle').animate({'opacity':'0'}, 500);
+				// $('.writingLinks').animate({'opacity':'0'}, 500);
+				$('#biddle').animate({'opacity':'0'}, 500);
+				$('#diddle').animate({'opacity':'0'}, 500);
+				// $('.arts').animate({'opacity':'0'}, 500);
+
+				// complete: finish
+				$('#servicewords').addClass('animated rotateIn');
+				$('#servicewordss').addClass('animated rotateInUpLeft');
+				$('#servicewordsss').addClass('animated rotateInDownLeft');
+			});
+
+			$('#navigationTeam').on('click', function(){
+				mouseOverChecker = true;
+					$('.navigationBar').css({'background-color':'transparent'}, 500)
+				$('#biddle').animate({'opacity':'1'}, 500);
+				// $('#menuWrapper').animate({'opacity':'0.8'}, 500);
+				$('#fiddle').animate({'opacity':'0'}, 500);
+				// $('.writingLinks').animate({'opacity':'0'}, 500);
+				$('#middle').animate({'opacity':'0'}, 500);
+				$('#diddle').animate({'opacity':'0'}, 500);
+				// $('.arts').animate({'opacity':'0'}, 500);
+
+				// complete: finish
+			});
+
+			$('#navigationContact').on('click', function(){
+				mouseOverChecker = true;
+				$('.navigationBar').css({'background-color':'transparent'}, 500)
+				$('#diddle').animate({'opacity':'1'}, 500);
+				// $('#menuWrapper').animate({'opacity':'0.8'}, 500);
+				$('#fiddle').animate({'opacity':'0'}, 500);
+				// $('.writingLinks').animate({'opacity':'0'}, 500);
+				$('#biddle').animate({'opacity':'0'}, 500);
+				$('#middle').animate({'opacity':'0'}, 500);
+				// $('.arts').animate({'opacity':'0'}, 500);
+
+				// complete: finish
+			});
+
+				
+
+
+		});
+ 				
+			</script>
+
+
+
+</head>
+	
+<body>
+
+	<!-- NAVBAR -->
+
+	<header class="navigationBar">
+
+		<div id="title" unselectable="on">Capital C<img id="wheel" src="img/wheel3.png">de Partners</div>
+
+		<ul class="header">
+
+			<li class="fuckmebitch" id="navigationHome">Home</li>
+			<li class="fuckmebitch" id="navigationServices">Services</li>
+			<li class="fuckmebitch" id="navigationTeam">Team</li>
+			<li class="fuckmebitch" id="navigationContact">Contact</li>
+		</ul>
+	</header>
+
+	<!-- MIDDLE DIVS -->
+
+
+	<div id="middle">
+	<section id="parallax">
+		<h1 id="homewords" class="animated">
+			WE WRITE THE BEST CODE
+		</h1>
+		<br>
+		<h1 id="homewordss" class="animated">
+			FOR YOUR VENTURE
+		</h1>
+		<h1 id="homewordsss" class="animated">
+			CAPITAL MONEY$
+		</h1>
+		<br>
+		<h1 id="homewordssss" class="animated">
+			WITH A CAPITAL $
+		</h1>
+
+
+			
+	</section>
+
+	</div>
+	<div id="fiddle">
+	<section id="parallax">
+			<p id="servicewords" class="animated">
+				Alex Carl will provide all of your servicing needs.
+			</p>
+			<br>
+			<p id="servicewordss" class="animated">
+				With his checkered past and dark future, he distinguishes himself among other codes
+			</p>
+			<p id="servicewordsss" class="animated">
+				You won't just be receiving development. You'll be receiving Carl
+			</p>
+	</section>
+
+	</div>
+	<div id="biddle">
+	<section id="parallax">
+			
+	</section>
+
+	</div>
+	<div id="diddle">
+	<section id="parallax">
+			
+	</section>
+
+	</div>
+
+	<!-- FOOTER -->
+
+	<a target="_blank" href="http://unodosdan.com"><footer class="bottom">
+		<span id="doggy">© 2014 UnoDosDan LLP</span></a>
+	</footer>
+
+</body>
+
+
+
+
+
+
+</html>
+
+<!-- END OF WEBSITE -->

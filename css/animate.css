@@ -527,7 +527,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @-webkit-keyframes bounceInDown {
   0% {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px);
   }
@@ -539,19 +539,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   80% {
+    opacity: 1;
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 
   100% {
+    opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
 
+
 @keyframes bounceInDown {
   0% {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: translateY(-2000px);
     -ms-transform: translateY(-2000px);
     transform: translateY(-2000px);
@@ -565,12 +568,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   80% {
+    opacity: 1;
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 
   100% {
+    opacity: 1;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);

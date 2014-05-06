@@ -77,6 +77,9 @@ body {
 	display:inline-block;
 	bottom: -5%;
 	position: relative;
+	-webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
 
 }
 
@@ -126,7 +129,7 @@ body {
 	opacity: 1;
 	background: url('../img/sb1.jpg');
 	background-repeat: none;
-	background-size: 100% 120%;
+	background-size: 100% 100%;
 	z-index: 1
 
 }
@@ -208,14 +211,11 @@ a:hover {
 }
 
 #homewords{
-	/*width:40%;
-	height:50%;*/
 	background-color: transparent;
 	opacity:.8;
 	z-index: 5;
 	position: absolute;
 	top:27%;
-	bottom:40%;
 	text-align: center;
 	left: 5%;
 	color: white;
@@ -223,14 +223,11 @@ a:hover {
   	-webkit-animation-delay: 1.5s;
 }
 #homewordss{
-	/*width:40%;
-	height:50%;*/
 	background-color: transparent;
 	opacity:.8;
 	z-index: 5;
 	position: absolute;
 	top:35%;
-	bottom:40%;
 	text-align: center;
 	left: 5%;
 	color: white;
@@ -238,14 +235,11 @@ a:hover {
   	-webkit-animation-delay: 2s;
 }
 #homewordsss{
-	/*width:40%;
-	height:50%;*/
 	background-color: transparent;
 	opacity:.8;
 	z-index: 5;
 	position: absolute;
 	top:43%;
-	bottom:40%;
 	text-align: center;
 	left: 5%;
 	color: white;
@@ -253,14 +247,11 @@ a:hover {
   	-webkit-animation-delay: 2.5s;
 }
 #homewordssss{
-	/*width:40%;
-	height:50%;*/
 	background-color: transparent;
 	opacity:.8;
 	z-index: 5;
 	position: absolute;
 	top:51%;
-	bottom:40%;
 	text-align: center;
 	left: 5%;
 	color: white;
@@ -269,14 +260,11 @@ a:hover {
 }
 
 #servicewords{
-	/*width:40%;
-	height:50%;*/
 	background-color: transparent;
 	opacity:.8;
 	z-index: 5;
 	position: absolute;
 	top:40%;
-	bottom:40%;
 	text-align: right;
 	left: 75%;
 	color: white;
@@ -287,14 +275,11 @@ a:hover {
 }
 
 #servicewordss{
-	/*width:40%;
-	height:50%;*/
 	background-color: transparent;
 	opacity:.8;
 	z-index: 5;
 	position: absolute;
 	top:55%;
-	bottom:40%;
 	text-align: right;
 	left: 75%;
 	color: white;
@@ -304,14 +289,11 @@ a:hover {
   	-webkit-animation-delay: 3s;
 }
 #servicewordsss{
-	/*width:40%;
-	height:50%;*/
 	background-color: transparent;
 	opacity:.8;
 	z-index: 5;
 	position: absolute;
 	top: 70%;
-	bottom:40%;
 	text-align: right;
 	left: 75%;
 	color: white;

@@ -153,6 +153,7 @@ body {
 
 }
 
+<<<<<<< HEAD
 #fiddle {
 	height: 100%;
 	width: 100%;
@@ -165,6 +166,18 @@ body {
 	background: url('../img/sb2.jpg');
 	background-repeat: no-repeat;
 	/*background-position: 0%;*/
+=======
+#fiddle{
+	height: 100%;
+	width:100%;
+	position: absolute;
+	background-color: limegreen;
+	opacity: 0;
+	background: url('../img/sb2.jpg');
+	background-repeat: no-repeat;
+	background-size: 1300px 813px;
+	background-position: 100% 0%;
+>>>>>>> 11a1d19d71e0df2e9435961122edb99cf883bcf9
 	z-index: 1;
 }
 
